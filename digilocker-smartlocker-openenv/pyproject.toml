@@ -1,0 +1,16 @@
+[project]
+name = "digilocker-smartlocker-env"
+version = "0.1.0"
+description = "OpenEnv environment for DigiLocker SmartLocker system"
+authors = [
+    { name = "Nishant", email = "your-email@example.com" }
+]
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pyyaml"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
