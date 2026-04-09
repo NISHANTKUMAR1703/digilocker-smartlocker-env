@@ -8,8 +8,12 @@ authors = [
 dependencies = [
     "fastapi",
     "uvicorn",
-    "pyyaml"
+    "pyyaml",
+    "openenv-core>=0.2.0"
 ]
+
+[project.scripts]
+server = "server.app:main"
 
 [build-system]
 requires = ["setuptools"]
