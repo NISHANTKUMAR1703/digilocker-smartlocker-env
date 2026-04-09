@@ -7,8 +7,7 @@ env = DigiLockerEnv()
 
 @app.post("/reset")
 def reset():
-    state = env.reset()
-    return {"state": state}
+    return {"state": env.reset()}
 
 @app.post("/step")
 def step(action: str):
