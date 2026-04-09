@@ -1,0 +1,14 @@
+name: digilocker-smartlocker-env
+version: 1.0
+
+entry_point: env.environment:DigiLockerEnv
+
+tasks:
+  - id: easy_auth
+  - id: medium_access
+  - id: hard_security
+
+observation_space: dict
+action_space: discrete
+
+reward_range: [0.0, 1.0]
